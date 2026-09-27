@@ -1,0 +1,42 @@
+
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+body{
+ margin: 0;
+ padding: 0;
+}
+
+.Header ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: auto;
+}
+.Header ul li{
+    padding: 10px;
+    font-size: 20px;
+}
+.Header .Link h1{
+    margin: 0;
+}
+
+.Header .Link{
+    text-decoration: none;
+    font-size: 20px;
+}
+.collage .Link{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px;
+}
+.active{
+    font-weight: bold;
+    color: darkblue;
+}

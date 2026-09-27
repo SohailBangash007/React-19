@@ -1,12 +1,38 @@
 import React from 'react';
-import { Link } from "react-router";
+import { NavLink, Outlet  } from "react-router";
+import  "./Header.css";
 
 const Navbar = () => {
   return (
     <div>
-          <Link to="/"><h1>Home</h1></Link>
-        <Link to="/about"><h1>About</h1></Link>
-        <Link to="/product"><h1>Product</h1></Link>
+    <div className='Header'>
+        <div>
+          <NavLink to="/" className="Link"><h1>Logo</h1></NavLink>
+        </div>
+        <div>
+           <ul>
+            <li>
+                <NavLink to="/" className="Link">Home</NavLink>
+            </li>
+            <li>
+                <NavLink to="/about" className="Link">About</NavLink>
+            </li>
+            <li>
+                <NavLink to="/product" className="Link">Product</NavLink>
+            </li>
+            <li>
+                <NavLink to="/collage" className="Link">Collage</NavLink>
+            </li>
+            <li>
+                <NavLink to="/user" className="Link">Users</NavLink>
+            </li>
+            <li>
+                <NavLink to="/user/list" className="Link">List</NavLink>
+            </li>
+           </ul>
+        </div>
+    </div>
+    <Outlet />
     </div>
   )
 }
