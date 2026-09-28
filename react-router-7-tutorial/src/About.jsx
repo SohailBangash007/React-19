@@ -11,7 +11,7 @@ const About = () => {
   },[])
 
  const getUserData = async()=>{
-  const url=("http://localhost:3000/user");
+  const url=("http://localhost:3000/users");
   let response= await fetch(url);
   response = await response.json();
   setUserDetails(response);
@@ -36,8 +36,8 @@ const About = () => {
           !Loading?
           UserDetails.map((user,index)=>(
           <ul className="flex justify-around border border-[#aaa]  p-4 text-center items-center " key={index}>
-            <li className="text-center items-center">{user.Firstname}</li>
-            <li className="text-center items-center">{user.Lastname}</li>
+            <li className="text-center items-center">{user.firstName}</li>
+            <li className="text-center items-center">{user.lastName}</li>
             <li className="text-center items-center">{user.age}</li>
             <li className="text-center items-center">{user.email}</li>
           </ul>

@@ -1,34 +1,61 @@
 {
-  "user": [
+  "users": [
     {
-      "Firstname": "Sohail",
-      "Lastname": "Bangash",
+      "firstName": "Sohail",
+      "lastName": "Bangash",
       "age": "21",
-      "email": "xyz@gmail.com"
+      "email": "xyz@gmail.com",
+      "id": "6hvpPBSB9jQ"
     },
-     {
-      "Firstname": "Arif",
-      "Lastname": "Muneer",
+    {
+      "firstName": "Arif",
+      "lastName": "Muneer",
       "age": "27",
-      "email": "abc@gmail.com"
+      "email": "abc@gmail.com",
+      "id": "84RhYOzkdiw"
     },
-     {
-      "Firstname": "Kashif",
-      "Lastname": "Muneer",
+    {
+      "firstName": "Kashif",
+      "lastName": "Muneer",
       "age": "32",
-      "email": "fgh@gmail.com"
+      "email": "fgh@gmail.com",
+      "id": "6ljKrRAYIM4"
     },
-     {
-      "Firstname": "Numan",
-      "Lastname": "Arshad",
+    {
+      "firstName": "Numan",
+      "lastName": "Arshad",
       "age": "27",
-      "email": "noman@gmail.com"
+      "email": "noman@gmail.com",
+      "id": "itSLiJt_IkE"
     },
-     {
-      "Firstname": "Asim",
-      "Lastname": "Shah",
+    {
+      "firstName": "Asim",
+      "lastName": "Shah",
       "age": "26",
-      "email": "asim@gmail.com"
+      "email": "asim@gmail.com",
+      "id": "r-KJVF-o3go"
+    },
+    {
+      "firstName": "Afnaan",
+      "lastName": "Bangash",
+      "age": "23",
+      "email": "rockybahi@gmail.com",
+      "id": "133SjPfYYMQ"
+    },
+    {
+      "firstName": "AFNAAN",
+      "lastName": "khan",
+      "age": "34",
+      "email": "bahiG@gmail.com",
+      "id": "jDtRuFDSkzA"
+    },
+    {
+      "firstName": "Rocky",
+      "lastName": "bahi",
+      "age": "19",
+      "email": "RockyBahi009@gmail.com",
+      "id": "i670g96nQoY"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
