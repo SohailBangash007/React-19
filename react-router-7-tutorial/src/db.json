@@ -1,0 +1,34 @@
+{
+  "user": [
+    {
+      "Firstname": "Sohail",
+      "Lastname": "Bangash",
+      "age": "21",
+      "email": "xyz@gmail.com"
+    },
+     {
+      "Firstname": "Arif",
+      "Lastname": "Muneer",
+      "age": "27",
+      "email": "abc@gmail.com"
+    },
+     {
+      "Firstname": "Kashif",
+      "Lastname": "Muneer",
+      "age": "32",
+      "email": "fgh@gmail.com"
+    },
+     {
+      "Firstname": "Numan",
+      "Lastname": "Arshad",
+      "age": "27",
+      "email": "noman@gmail.com"
+    },
+     {
+      "Firstname": "Asim",
+      "Lastname": "Shah",
+      "age": "26",
+      "email": "asim@gmail.com"
+    }
+  ]
+}
