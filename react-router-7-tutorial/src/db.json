@@ -1,8 +1,8 @@
 {
   "users": [
     {
-      "firstName": "Sohail",
-      "lastName": "Bangash",
+      "firstName": "Ahsaan",
+      "lastName": "Sawabi",
       "age": "21",
       "email": "xyz@gmail.com",
       "id": "6hvpPBSB9jQ"
@@ -36,17 +36,17 @@
       "id": "133SjPfYYMQ"
     },
     {
-      "firstName": "Rocky",
-      "lastName": "bahi",
-      "age": "19",
-      "email": "RockyBahi009@gmail.com",
+      "firstName": "Subhan",
+      "lastName": "Kashmiri",
+      "age": "20",
+      "email": "Subhan001@gmail.com",
       "id": "i670g96nQoY"
     },
     {
-      "firstName": "Arman",
-      "lastName": "khan",
-      "age": "29",
-      "email": "Arman09@gmail.com",
+      "firstName": "Sohail",
+      "lastName": "Bangash",
+      "age": "23",
+      "email": "sohailbangash09@gmail.com",
       "id": "D_PvZI481rI"
     }
   ],
