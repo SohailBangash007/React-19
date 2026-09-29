@@ -11,29 +11,34 @@ import CollageDetails from "./CollageDetails";
 import UsersList from "./UsersList";
 import UserData from "./UserData";
 import AddUser from "./AddUser";
+import EditUser from "./EditUser";
 
 function App() {
   return (
     <>
-    <ul className="flex justify-around text-3xl font-bold list-none w-[350px]  mt-10">
-      <li>
-        <NavLink to="/about">About</NavLink>
-      </li>
-      <li>
-        <NavLink to="/about/add">AddUser</NavLink>
-      </li>
-    </ul>
+      <ul className="flex justify-around text-2xl font-bold list-none w-[550px]  mt-10">
+        <li className="border p-2 bg-cyan-100">
+          <NavLink to="/about">Bact to About</NavLink>
+        </li>
+        <li className="border p-2 bg-fuchsia-400">
+          <NavLink to="/about/add">AddUser</NavLink>
+        </li>
+        <li className="border p-2 bg-emerald-400">
+          <NavLink to="/">Bact to Home</NavLink>
+        </li>
+      </ul>
       <Routes>
         <Route element={<Navbar />}>
-          <Route path="/" element={<Home />} />        
+          <Route path="/" element={<Home />} />
           <Route path="/product" element={<Product />} />
           <Route path="/user/list?" element={<UsersList />} />
           <Route path="/user/:id/:name?" element={<UserData />} />
         </Route>
         <Route>
-            <Route path="/about" element={<About />} />
-            <Route path="/about/add" element={<AddUser />} />
-          </Route>
+          <Route path="/about" element={<About />} />
+          <Route path="/about/add" element={<AddUser />} />
+          <Route path="/edit/:id" element={<EditUser />} />
+        </Route>
 
         <Route path="/collage" element={<Collage />}>
           <Route index element={<Student />} />

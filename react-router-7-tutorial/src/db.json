@@ -29,13 +29,6 @@
       "id": "itSLiJt_IkE"
     },
     {
-      "firstName": "Asim",
-      "lastName": "Shah",
-      "age": "26",
-      "email": "asim@gmail.com",
-      "id": "r-KJVF-o3go"
-    },
-    {
       "firstName": "Afnaan",
       "lastName": "Bangash",
       "age": "23",
@@ -43,18 +36,18 @@
       "id": "133SjPfYYMQ"
     },
     {
-      "firstName": "AFNAAN",
-      "lastName": "khan",
-      "age": "34",
-      "email": "bahiG@gmail.com",
-      "id": "jDtRuFDSkzA"
-    },
-    {
       "firstName": "Rocky",
       "lastName": "bahi",
       "age": "19",
       "email": "RockyBahi009@gmail.com",
       "id": "i670g96nQoY"
+    },
+    {
+      "firstName": "Arman",
+      "lastName": "khan",
+      "age": "29",
+      "email": "Arman09@gmail.com",
+      "id": "D_PvZI481rI"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
