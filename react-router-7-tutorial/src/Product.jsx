@@ -8,7 +8,7 @@ const Product = () => {
 
   const handlerName = (event) => {
     console.log(event.target.value);
-    if (event.target.value.length > 10) {
+    if (event.target.value.length>10) {
       setNameError("Please Enter The 10 Alphabets");
     } else {
       setNameError("");
@@ -17,7 +17,7 @@ const Product = () => {
 
   const handlePassword = (event) => {
     let regex = /^[A-Z0-9]+$/i;
-    if (regex.test(event.target.value)) {
+    if (!regex.test(event.target.value)) {
       setPassError();
     } else {
       setPassError(

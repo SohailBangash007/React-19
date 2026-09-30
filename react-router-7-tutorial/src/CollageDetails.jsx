@@ -3,7 +3,7 @@ import {NavLink} from 'react-router'
 
 const CollageDetails = () => {
   return (
-    <div >
+    <div className=''>
         <h1>CollageDetails Page </h1>
         
     </div>
