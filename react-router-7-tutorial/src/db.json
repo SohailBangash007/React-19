@@ -1,13 +1,6 @@
 {
   "users": [
     {
-      "firstName": "Ahsaan",
-      "lastName": "Sawabi",
-      "age": "21",
-      "email": "xyz@gmail.com",
-      "id": "6hvpPBSB9jQ"
-    },
-    {
       "firstName": "Arif",
       "lastName": "Muneer",
       "age": "27",
@@ -48,6 +41,16 @@
       "age": "23",
       "email": "sohailbangash09@gmail.com",
       "id": "D_PvZI481rI"
+    },
+    {
+      "firstName": "Ahsaan ",
+      "lastName": "Sawabi",
+      "age": "19",
+      "email": "Ahsaan@gmail.com",
+      "id": "Q8fRy1qRTXY"
+    },
+    {
+      "id": "-M266BSJpnw"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
