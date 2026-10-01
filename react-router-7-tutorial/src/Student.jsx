@@ -26,10 +26,10 @@ const Student = () => {
       </h1>
       <div className="flex flex-col justify-center">
         {
-          data?.message && <span>{data.message}</span>
+          data?.message && <span className="text-green-500 text-2xl mb-2 font-bold">{data.message}</span>
         }
         {
-          data?.error && <span>{data.error}</span>
+          data?.error && <span className="text-red-400 text-2xl mb-2 font-bold">{data.error}</span>
         }
         <form
           action={action}
