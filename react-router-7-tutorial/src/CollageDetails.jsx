@@ -31,7 +31,7 @@ const CollageDetails = () => {
 
     <div>
       <h1 className="text-3xl font-bold mt-6">UseApi and Rest Api With react</h1>
-      <Suspense fallback={<h2>Loading Dummy Data........</h2>}>
+      <Suspense fallback={<h2 className="text-4xl font-bold mt-4">Loading Dummy Data........</h2>}>
          <UseApi DummyUsers={DummyUsers}/>
       </Suspense>
     </div>

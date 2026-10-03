@@ -11,7 +11,10 @@ const UseApi = ({DummyUsers}) => {
         <h1 className='text-3xl font-bold mt-4'>Users List----</h1>
         {
           UsersData?.users?.map((user,index)=>(
-             <h1 key={index} className='text-2xl font-bold'>Name : {user.firstName}</h1>
+            <div key={index}>
+             <h1  className='text-2xl font-bold'>Name : {user.firstName}</h1>
+             <h2  className='text-2xl font-bold'>Email : {user.email}</h2>
+             </div>
           ))
         }
     </div>
