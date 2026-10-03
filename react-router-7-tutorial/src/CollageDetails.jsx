@@ -1,11 +1,18 @@
 import React, { lazy, Suspense, useState } from "react";
 import { NavLink } from "react-router";
+import UseApi from "./UseApi";
 // import LazyLoading from "./LazyLoading";
 const LazyLoading = lazy(()=>import("./LazyLoading"));
+
+
+const fetchData =()=>fetch("https://dummyjson.com/users").then((response)=>response.json());
+
+const DummyUsers = fetchData();
 
 const CollageDetails = () => {
   const [Load, setLoad] = useState(false);
   return (
+    <>
     <div className="">
       <h1 className="text-3xl font-bold">CollageDetails Page </h1>
 
@@ -21,6 +28,16 @@ const CollageDetails = () => {
         Load User
       </button>
     </div>
+
+    <div>
+      <h1 className="text-3xl font-bold mt-6">UseApi and Rest Api With react</h1>
+      <Suspense fallback={<h2>Loading Dummy Data........</h2>}>
+         <UseApi DummyUsers={DummyUsers}/>
+      </Suspense>
+    </div>
+  
+
+   </>
   );
 };
 
