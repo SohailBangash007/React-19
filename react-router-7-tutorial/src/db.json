@@ -53,5 +53,79 @@
       "id": "-M266BSJpnw"
     }
   ],
+  "skills": [
+    {
+      "id": "1",
+      "name": "React",
+      "category": "Frontend"
+    },
+    {
+      "id": "2",
+      "name": "Java",
+      "category": "Programming"
+    },
+    {
+      "id": "3",
+      "name": "PHP",
+      "category": "Backend"
+    },
+    {
+      "id": "4",
+      "name": "C++",
+      "category": "Programming"
+    },
+    {
+      "id": "5",
+      "name": "JavaScript",
+      "category": "Frontend"
+    },
+    {
+      "id": "6",
+      "name": "Python",
+      "category": "Programming"
+    },
+    {
+      "id": "3107RAVILmQ"
+    },
+    {
+      "id": "eS1bn7Lb7vI"
+    },
+    {
+      "name": "java",
+      "id": "PAjyZZiJD_o"
+    },
+    {
+      "name": "python",
+      "id": "2fWdT9xxKN8"
+    },
+    {
+      "name": "Sohail",
+      "id": "_N7-Nio8J2M"
+    },
+    {
+      "name": "Node",
+      "id": "g5PQ-wlCDpg"
+    },
+    {
+      "name": [],
+      "id": "WsyF-QBGcHk"
+    },
+    {
+      "name": "react",
+      "id": "Ty0P6Wl8zpg"
+    },
+    {
+      "name": "react",
+      "id": "UkRSppFIaM0"
+    },
+    {
+      "name": "remove skill",
+      "id": "muToU_wSXvg"
+    },
+    {
+      "name": "Tailwind css",
+      "id": "sAGmkE1Eoog"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }

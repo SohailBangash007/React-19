@@ -12,6 +12,7 @@ import UsersList from "./UsersList";
 import UserData from "./UserData";
 import AddUser from "./AddUser";
 import EditUser from "./EditUser";
+import UseOptimisticHooks from "./UseOptimisticHooks";
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
           <Route path="departments" element={<Departments />} />
           <Route path="collageDetails" element={<CollageDetails />} />
         </Route>
+        <Route path="/UseOptimisticHooks" element={<UseOptimisticHooks/>}/>
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
     </>

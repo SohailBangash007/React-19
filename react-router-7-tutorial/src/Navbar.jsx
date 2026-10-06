@@ -29,6 +29,9 @@ const Navbar = () => {
             <li>
                 <NavLink to="/user/list" className="Link">List</NavLink>
             </li>
+            <li>
+                <NavLink to="/UseOptimisticHooks" className="Link">UseOptimistic</NavLink>
+            </li>
            </ul>
         </div>
     </div>

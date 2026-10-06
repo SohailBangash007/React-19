@@ -18,7 +18,7 @@ const UseApi = ({DummyUsers}) => {
           ))
         }
     </div>
-  )
+  ) 
 }
 
 export default UseApi
